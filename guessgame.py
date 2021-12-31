@@ -7,7 +7,7 @@ cAsk = input("Would you like to play with the bot (answer with B) or with a frie
 
 
 def guess_D():
-    secret_word = "Lolo"
+    secret_word = "Enter a random word"
     guess_limit = 4
     out_of_guesses = False
     guess = ""
