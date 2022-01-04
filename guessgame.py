@@ -1,10 +1,11 @@
 # a small game about guessing words
 import time
 import random
+from words import words_list
 
 
 def guess_with_bot():
-    word_list = ['me', 'hi', 'yes', 'no', 'wish', 'test']
+    word_list = random.choice(words_list)
     secret_word = word_list[random.randint(0, len(word_list) - 1)]
     guess_limit = 4
     out_of_guesses = False
